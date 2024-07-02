@@ -1,0 +1,27 @@
+.custom-table td, .form-control-lg {
+  background-color: #ffffff89;
+}
+.custom-table th, .mb-lg-0 {
+  background-color: #ffffff89;
+}
+.py-5{
+  width: 1000px;
+}
+  /*Logo Style*/
+#BakeryLogo3{ 
+  
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+}
+.cakeTitle{
+  font-family: "Cookie", cursive;
+    font-size: 25px;
+}
+.cakeDesc{
+  font-weight: lighter;
+
+}

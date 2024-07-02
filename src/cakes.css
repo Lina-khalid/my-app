@@ -1,0 +1,249 @@
+
+/*Menu Style*/
+#background {
+  background-image: url("https://images.unsplash.com/photo-1618426703623-c1b335803e07?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  
+  background-size: cover;
+  filter: blur(0.01em);
+  height: 100%;
+  left: 0px;
+  opacity: 0.25;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+}
+#BakeryLogo2{ 
+  position: relative;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;margin-top: -225px;
+  margin-right: 600px;
+}
+
+
+.cakePhotoMenu{
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  }
+  
+  .Cakes {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: 150px;
+    align-items: center;
+  }
+
+  .cakeDiv{
+    
+    padding: 50px;
+    padding-top: 0px;
+    margin-left: 100px;
+    z-index: 1;
+    background-color: #ffffff8e;
+    border-radius: 30px;
+  }
+  .cakeDivWrapper {
+    /* Existing styles */
+    flex: 0 0 calc(50% - 20px);
+    padding-bottom: 10px;
+    text-align: center;
+    flex: 0 0 calc(37.37% - 20px);
+    margin-top: 100px;
+    
+    /* New styles for layout */
+    display: inline-flex;
+    width: 50%;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+
+  .cakeDivWrapper2 {
+    /* Existing styles */
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 250px;
+    text-align: center;
+    flex: 0 0 calc(50.33% - 20px );
+    
+    
+    /* New styles for layout */
+    display: inline-flex;
+    width: 50%;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .cakeTitleMenu,.cakePrice{
+    font-family: "Cookie", cursive;
+    font-size: 30px;
+    z-index: 1;
+  }
+
+  .cakePhotoMenuContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cakePhotoMenu {
+    transition: transform 2s;
+    position: relative;
+    z-index: 2; /* Ensure it's on top */
+  }
+  
+  .cakePhotoMenuBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(10px);
+    z-index: 1; /* Ensure it's behind */
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .cakePhotoMenuContainer:hover .cakePhotoMenu {
+    transform: rotate(360deg);
+  }
+  
+  .cakePhotoMenuContainer:hover .cakePhotoMenuBackground {
+    opacity: 1;
+  }
+  
+
+  
+  /* Menu button Style */
+  .button-62 {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    z-index: 1;
+  }
+  
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    z-index: 1;
+  }
+
+  /*Logo Style*/
+
+
+/* New Mark Style */
+.scale-down {
+  transform: scale(0.305); /* Adjust scale value as needed */
+  transform-origin: top left; /* Ensures the scaling starts from the top left */
+
+}
+
+.wrap {
+  width: 200px;
+  margin: auto;
+  z-index: 1;
+  
+}
+
+.msg {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Bree Serif', Courier, monospaced;
+  font-size: 3.5em;
+  width: 200px;
+  position: absolute;
+  margin: 55px 0 0 2px;
+  pointer-events: none;
+  margin-left: -150px;
+  margin-top: 100px;
+}
+
+.sticker {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
+  animation: spin 10s linear infinite;
+  animation-play-state: running;  padding-left: -50px;
+  margin-left: -150px;
+  margin-top: 50px;
+}
+
+.sticker:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+/*Footer*/
+#cart-symbol {
+  color: rgba(42, 35, 59, 0.897);
+  text-decoration: none !important;
+  position: fixed;
+  bottom: 1px;
+  right: 1px;
+  font-size: 40px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.562);
+  cursor: pointer;
+  --color: #ad3750; /* the color of the border */
+  --border: 5px;   /* the thickness of the border */
+  --offset: 10px;   /* control the movement of the border */
+  --gap: 2px;       /* the gap on hover */
+  
+  border-radius: 50%;
+  cursor: pointer;
+  padding: calc(var(--border) + var(--gap));
+  border: var(--offset) solid #0000;
+  --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)),#0000 calc(100% - var(--border)));
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%,#0000;
+  --_s: var(--offset);
+  --_r: 100% 100% at;
+  background:
+    radial-gradient(var(--_r) 0    0   ,var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 100% 0   ,var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 0    100%,var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
+    radial-gradient(var(--_r) 100% 100%,var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s));
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  transition: .4s;
+  z-index: 1;
+}
+
+
+#cart-symbol:hover {
+  --_s: 0px;
+}
+#cartSize{
+  color: rgba(42, 35, 59, 0.897);
+}
+

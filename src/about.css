@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-us {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
+  
+}
+#BakeryLogo4{ 
+  
+  position: relative;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  display: block;
+  z-index: 2;
+}
+.video-bg3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.60; /* Adjust the opacity value as desired */
+}
+
+
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text {
+  width: 540px;
+  height: 430px;
+  border-radius: 12px;
+  z-index: 2;
+  box-shadow: 2vh  2vh 2vh 2vh #726a6a85;
+  padding: 30px;
+  margin-top: -50px;
+  background-color: #ffffff37;
+}
+
+.about h2 {
+  color: #333;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.text h5 {
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #4070f4;
+}
+
+.text p {
+  color: #333;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.shop {
+  font-size: 16px;
+  background: rgb(67, 65, 65);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.shop:hover {
+  background: rgba(76, 74, 74, 0.489);
+  color: black;
+  text-decoration: none;
+}
