@@ -8,9 +8,9 @@ class Signup extends React.Component {
     return (
       <div className="login">
         <Link to="/"><img id='BakeryLogo' src={BakeryLogo} alt="Bakery Logo" /></Link>
-        <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-        <label htmlFor="menu-icon"></label>
-        <nav className="nav">
+        <input className="menu-icon2" type="checkbox" id="menu-icon2" name="menu-icon" />
+        <label htmlFor="menu-icon2"></label>
+        <nav className="nav2">
           <ul className="pt-5">
           <li><Link to="/">Home</Link></li>
             <li>
@@ -32,7 +32,7 @@ class Signup extends React.Component {
 
         <div className="Wrapper" >
           <div id="myWrapper2">
-            <article className="letter" >
+            <article className="loginLetter" >
               <div className="side"style={{ height: "16rem" , marginTop:"-100px"}}>
                 <h1>Sign Up</h1>
                 <form className="pt-3" >

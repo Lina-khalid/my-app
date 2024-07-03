@@ -16,9 +16,9 @@ class Contact extends React.Component {
     return (
       <div>  
         <Link to="/"><img id='BakeryLogo' src={BakeryLogo} alt="Bakery Logo" /></Link>
-        <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-        <label htmlFor="menu-icon"></label>
-        <nav className="nav">
+        <input className="menu-icon3" type="checkbox" id="menu-icon3" name="menu-icon3" />
+        <label htmlFor="menu-icon3"></label>
+        <nav className="nav3">
         <ul className="pt-5">
         <li><Link to="/">Home</Link></li>
           <li>

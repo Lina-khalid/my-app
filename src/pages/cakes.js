@@ -74,9 +74,9 @@ const Cakes = () => {
     <div className='Cakes'>
       <div id="background" />
       <Link to="/"><img id='BakeryLogo2' src={BakeryLogo} alt="Bakery Logo" /></Link>
-      <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-      <label htmlFor="menu-icon"></label>
-      <nav className="nav">
+      <input className="menu-icon5" type="checkbox" id="menu-icon5" name="menu-icon5" />
+      <label htmlFor="menu-icon5"></label>
+      <nav className="nav5">
         <ul className="pt-5">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/cakes">Cakes</Link></li>

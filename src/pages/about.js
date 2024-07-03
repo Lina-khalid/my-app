@@ -6,9 +6,9 @@ const About = () => {
   return (
     <div>
       <Link to="/"><img id='BakeryLogo4' src={BakeryLogo} alt="Bakery Logo" /></Link>
-  <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
-      <label htmlFor="menu-icon"></label>
-      <nav className="nav">
+  <input className="menu-icon4" type="checkbox" id="menu-icon4" name="menu-icon4" />
+      <label htmlFor="menu-icon4"></label>
+      <nav className="nav4">
         <ul className="pt-5">
         <li><Link to="/">Home</Link></li>
           <li>
@@ -36,17 +36,18 @@ const About = () => {
         <h5>
         Welcome to our story at <span>Healthy Cake</span>
         </h5>
-        <p>
-        Born out of a passion for baking and a commitment to promoting wellness, 
-        we saw a growing demand for healthier dessert options. 
-        Our mission began with the goal of crafting cakes that marry delicious taste 
-        with a wholesome lifestyle.
-        <br />  <br />
-          What sets our cakes apart is our dedication to using only the finest ingredients.
-           We meticulously choose organic, locally sourced produce and prioritize natural
-            sweeteners that are not only low in calories but also deliver rich, satisfying 
-            flavors.
-        </p>
+        <p className="first-part">
+    Born out of a passion for baking and a commitment to promoting wellness,
+    we saw a growing demand for healthier dessert options.
+    Our mission began with the goal of crafting cakes that marry delicious taste
+    with a wholesome lifestyle.
+  </p>
+  <p className="second-part">
+    What sets our cakes apart is our dedication to using only the finest ingredients.
+    We meticulously choose organic, locally sourced produce and prioritize natural
+    sweeteners that are not only low in calories but also deliver rich, satisfying
+    flavors.
+  </p>
         <div className="data">
           <Link className="shop" to={"/cakes"}>Shop Now</Link>
             

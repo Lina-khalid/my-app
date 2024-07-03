@@ -29,12 +29,7 @@ body{
   display: block;
   z-index: 1;
 }
-.cocaDrip{
-  width: 400px;
-  height: 400px;
-  position: relative;
-  left: 260px;
-}
+
 
 .navMenu {
   z-index: 10;
@@ -71,27 +66,6 @@ body{
   100% { transform: rotate(0deg) translateX(0); }
 }
 /*home page style*/
-#blueBerry{
-margin-top: -420px;
-  float: left;
-  width: 45%;
-  height: 45%;
-  transition: transform 0.3s;
-}
-
-#blueBerry:hover {
-  animation: shakeRotate 0.5s; /* Apply the shake animation on hover */
-}
-
-#blackBerry{
-  position: relative;
-  margin-top: -180px;
-margin-right: 20px;
-  float: right;
-  width: 200px;
-  height: 200px;
-  
-}
 
 #homePageTitle{
   margin-left: 20px;
@@ -614,20 +588,49 @@ margin-top: -30px;
 
 
 
-@media screen and (max-width: 991px) {
+/* Small Devices Style */
+@media (max-width:768px) {
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label{
-    right: 55px;
+    position: fixed;
+    margin-top: -20px;
+    margin-right: 50px;
+    transform: scale(0.7);
   }
   .logo {
     left: 30px;
   }
   .nav{
-    right: 30px;
+    position: fixed;
+    margin-top: -20px;
+    margin-right: 50px;
+    transform: scale(0.7);
+  }
+
+  .nav a:first-child {
+    top: -100px; /* Remove top margin for the first item */
+    left: 20px;
+    font-size: 25px;
+  }
+  .nav ul li a{
+    font-size: 3vh;
+  }
+  #homePageTitle{
+  margin-top: 50px;
+   font-size: 80px;
   }
   
-  .nav ul li a{
-    font-size: 8vh;
+  #homePageSubtitle{
+    font-size: 22px;
+  position: relative;
+  left: 100px;
+  }
+  
+  #homePagePara{
+    
+  font-size: 15px;
+  width: 250px;
+    top: 50px;
+    left: 90px;
   }
 }
-
