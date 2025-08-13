@@ -461,6 +461,7 @@
 
   .nav5 {
     position: absolute;
+    right: -80px;
     transform: none;
     transition: none;
     box-shadow: none;
@@ -485,6 +486,7 @@
   .menu-icon5:checked + label,
   .menu-icon5:not(:checked) + label {
     position: absolute;
+    right: -60px;
     margin-top: 4px;
     transform: scale(0.7);
   }
@@ -497,20 +499,24 @@
   .nav5 ul li a{
     font-size: 3vh;
   }
-  #cartSize, #cart-symbol {
+ #cart-symbol {
     font-size: 30px; /* Adjust as needed for smaller screens */
-    left: 350px;
+    left: 410px;
     position: fixed;
     z-index: 0;
   }
+  #cartSize{
+    font-size: 30px; /* Adjust as needed for smaller screens */
+    left: 420px;}
 
   .cakeDivWrapper2 {
-    transform: scale(0.6); /* Adjust the scale value as needed */
+    transform: scale(0.7); /* Adjust the scale value as needed */
+    
   }
 
   .cakeDiv {
     position: relative;
-    left: -400px;
+    left: -300px;
     margin-bottom: -130px;
   }
 }

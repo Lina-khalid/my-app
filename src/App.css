@@ -590,6 +590,10 @@ margin-top: -30px;
 
 /* Small Devices Style */
 @media (max-width:768px) {
+  .video-bg2{
+    width : 190% ;
+    height : 190% ;
+}
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label{
     position: fixed;

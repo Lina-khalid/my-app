@@ -194,7 +194,7 @@ const ShoppingCart = () => {
                               id="typeName"
                               className="form-control form-control-lg"
                               size={17}
-                              placeholder="Lina Alkendi"
+                              placeholder="Lina"
                             />
                             <label className="form-label" htmlFor="typeName">
                               Name on card
